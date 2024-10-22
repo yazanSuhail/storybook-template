@@ -34,3 +34,45 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+# stoybook
+
+to publish story book use 
+npx chromatic --project-token=chpt_411269918c43d3f
+
+to run storybook use 
+npm run storybook
+
+# Storybook Component Library
+
+This project contains a collection of reusable UI components developed and documented using [Storybook](https://storybook.js.org/). The components are built using Nexjs, Tailwind CSS, and offer flexible props for customization.
+
+## Getting Started
+Follow the instructions below to set up and run Storybook for this project.
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js (v20.18.0+)
+- npm
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone TBD
+   cd storybook-template
+
+### Running Storybook
+ - npm run storybook
+
+### Building for Production
+To build the Storybook as a static site for production:
+
+ - npm run build-storybook
+
+This will output static files to the storybook-static directory, which you can deploy to any static site host (e.g., Netlify, Vercel, GitHub Pages).
+
